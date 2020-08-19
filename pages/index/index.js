@@ -65,7 +65,7 @@ Page({
   },
 
   /**
-   * 发送请求获取地图接口的返回值
+   * 
    */
   sendRequest: function (qqMapApi) {
     let that = this;
@@ -107,7 +107,7 @@ Page({
       success: (res) => {
         console.log(res)
         if (res.statusCode == 200) {
-          // 从返回值中提取需要的业务地理信息数据
+          
           var weather_url_3d = "https://free-api.heweather.com/v7/weather/3d?location=" + res.data.location[0].id + "&key=0b7e2b9fac804179b544e306025701f2";
           that.getWeather3d(weather_url_3d);
           var weather_url_now = "https://free-api.heweather.com/v7/weather/now?location=" + res.data.location[0].id + "&key=0b7e2b9fac804179b544e306025701f2";

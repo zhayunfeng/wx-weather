@@ -1,8 +1,7 @@
 <view style="padding-left:10px ;padding-top:5px; padding-right:10px">
   <text style="font-weight:bold; font-size:22px;">{{province}}</text>
   <text style="font-weight:bold; font-size:22px; padding-left:5px">{{city}}</text>
-  <text style=" font-size:17px; float:right">{{street}}</text>
-  
+  <text style=" font-size:17px; float:right">{{street}}</text> 
 </view>
 
 <view style="padding-top:50px;width:100%">
@@ -88,7 +87,6 @@
     <text>{{textDay_2}}~{{textNight_2}}</text>
   </view>
 </view>
-
 <view style="padding-top:40px">
-<text class="my-center" style="font-size:15px; font-family:STKaiti ">天气数据来自和风天气</text>
+  <text class="my-center" style="font-size:15px; font-family:STKaiti ">天气数据来自和风天气</text>
 </view>
