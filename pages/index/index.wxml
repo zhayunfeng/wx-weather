@@ -1,0 +1,94 @@
+<view style="padding-left:10px ;padding-top:5px; padding-right:10px">
+  <text style="font-weight:bold; font-size:22px;">{{province}}</text>
+  <text style="font-weight:bold; font-size:22px; padding-left:5px">{{city}}</text>
+  <text style=" font-size:17px; float:right">{{street}}</text>
+  
+</view>
+
+<view style="padding-top:50px;width:100%">
+  <text style=" font-size:60px" class="my-center">{{temp}}℃</text>
+  <text>\n</text>
+  <text style=" font-size:50px" class="my-center">{{text}}</text>
+</view>
+
+<view style="display: flex; margin-top:40px;">
+  <view style="flex:1; font-size:20px">
+    <text class="my-center">体感温度</text> 
+  </view>
+  <view style="flex:1; font-size:20px" >
+    <text class="my-center">湿度</text>
+  </view>
+  <view style="flex:1; font-size:20px" >
+    <text class="my-center">风向</text>
+  </view>
+</view>
+<view style="display: flex;margin-top:20px">
+  <view style="flex:1; font-size:20px" class="my-center">
+    <text>{{feelsLike}}℃</text> 
+  </view>
+  <view style="flex:1; font-size:20px" class="my-center">
+    <text>{{humidity}}</text>
+  </view>
+  <view style="flex:1; font-size:20px" class="my-center">
+    <text>{{windDir}}</text>
+  </view>
+</view>
+<view style="display: flex;margin-top:40px">
+  <view style="flex:1; font-size:20px" class="my-center">
+    <text>可见度</text> 
+  </view>
+  <view style="flex:1; font-size:20px" class="my-center">
+    <text>日落时间</text>
+  </view>
+  <view style="flex:1; font-size:20px" class="my-center">
+    <text>风力</text>
+  </view>
+</view>
+<view style="display: flex;margin-top:20px">
+  <view style="flex:1; font-size:20px" class="my-center">
+    <text>{{vis}}</text> 
+  </view>
+  <view style="flex:1; font-size:20px" class="my-center">
+    <text>{{sunset}}</text>
+  </view>
+  <view style="flex:1; font-size:20px" class="my-center">
+    <text>{{windScale}}级</text>
+  </view>
+</view>
+
+<view style="display: flex;margin-top:40px">
+  <view style="flex:1; font-size:20px" class="my-center">
+    <text>今天</text> 
+  </view>
+  <view style="flex:1; font-size:20px" class="my-center">
+    <text>明天</text>
+  </view>
+  <view style="flex:1; font-size:20px" class="my-center">
+    <text>后天</text>
+  </view>
+</view>
+<view style="display: flex;margin-top:20px">
+  <view style="flex:1; font-size:20px" class="my-center">
+    <text>{{tempMin_0}}℃~{{tempMax_0}}℃</text> 
+  </view>
+  <view style="flex:1; font-size:20px" class="my-center">
+    <text>{{tempMin_1}}℃~{{tempMax_1}}℃</text>
+  </view>
+  <view style="flex:1; font-size:20px" class="my-center">
+    <text>{{tempMin_1}}℃~{{tempMax_1}}℃</text>
+  </view>
+</view><view style="display: flex;margin-top:20px">
+  <view style="flex:1; font-size:20px" class="my-center">
+    <text>{{textDay_0}}~{{textNight_0}}</text> 
+  </view>
+  <view style="flex:1; font-size:20px" class="my-center">
+    <text>{{textDay_1}}~{{textNight_1}}</text>
+  </view>
+  <view style="flex:1; font-size:20px" class="my-center">
+    <text>{{textDay_2}}~{{textNight_2}}</text>
+  </view>
+</view>
+
+<view style="padding-top:40px">
+<text class="my-center" style="font-size:15px; font-family:STKaiti ">天气数据来自和风天气</text>
+</view>

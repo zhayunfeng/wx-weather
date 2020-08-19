@@ -1,0 +1,31 @@
+/**index.wxss**/
+page{
+  background-image: url('http://r.photo.store.qq.com/psc?/V14EciTQ22uWfJ/TmEUgtj9EK6.7V8ajmQrEKJ0WT05Le76qE0k5ADW9eLzHodR3.1D8bJDwU9iOsnd71JqV8lP*y6CmrbpuQS4lXHBSP2vteBUohm.bgga5l0!/r');
+  background-size: cover;
+  font-family: YouYuan;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.my-center{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
